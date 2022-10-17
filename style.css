@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;800&family=Roboto:ital,wght@0,300;0,900;1,100;1,900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins',sans-serif; 
+    
+
+}
+
+section{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/*------------------------Navbar--------------------------*/
+#navbar{
+
+    position:sticky;
+    top:0;
+    background:white;
+    z-index: 10 ;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+    -2px -2px 5px rgba(0,0,0,0.3) ;
+    margin:1% 1% ;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5px;
+}
+.bold{
+    font-size: 25px;
+}
+li{
+    padding:5px;
+}
+a.nav-link {
+    font-size:15px;
+    font-weight:bold;
+    color:darkblue;
+    border:2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 4px solid blue;
+    transition: 2s;
+
+}
+
+/*-----------------------------Home------------------------*/
+span{
+    color:blue;
+    font-weight:bold;
+}
+p{
+    font-size:20px;
+}
+/*-----------------------------About------------------------*/
+
+#about img{
+    width:35rem;
+    height:25rem;
+    border-radius: 50px;
+}
+
+#about h5{
+    font-size:50px;
+}
+
+/*-------------------------Services-----------------------------*/
+.card img{
+    height:300px;
+}
+.inner{
+    overflow:hidden;
+}
+.card img:hover{
+    transform:scale(1.5);
+    transition:1s;
+}
+/*-----------------------------Contact-----------------------------*/
+
+form{
+    padding:40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,1),
+    -2px -2px 5px rgba(219, 13, 13, 0.697);
+  
+    border-radius: 25px;
+}
